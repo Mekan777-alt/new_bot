@@ -80,9 +80,13 @@ nacotmBtn = ReplyKeyboardMarkup(resize_keyboard=True).add(b53)
 
 """inline menu"""
 btnbar = KeyboardButton("🍾 БАР")
-btnkitchen = KeyboardButton("🍲 КУХНЯ")
+btnkitchen = KeyboardButton("🍱 ХОЛОДНЫЕ И ГОРЯЧИЕ ЗАКУСКИ")
 btndes = KeyboardButton("🍮 ДЕСЕРТЫ")
-btnbzn = KeyboardButton("🥡 БИЗНЕС-ЛАНЧ")
+btnbzn = KeyboardButton("🥗 САЛАТЫ")
+btnsup = KeyboardButton("🍲 СУПЫ")
+btnkids = KeyboardButton("👶 ДЕТСКОЕ МЕНЮ")
+btngor = KeyboardButton("🌶 ГОРЯЧИЕ БЛЮДА")
+btngril = KeyboardButton("🥩 GRILL-СТЕЙКИ")
 btnnaz = KeyboardButton("🔙 НАЗАД")
-inlineMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnbar, btnkitchen, btnbzn, btndes, btnnaz)
+inlineMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnbar, btnkitchen, btnbzn, btndes, btnsup, btnkids, btngril, btngor, btnnaz)
 
