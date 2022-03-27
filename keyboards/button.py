@@ -90,3 +90,8 @@ btngril = KeyboardButton("🥩 GRILL-СТЕЙКИ")
 btnnaz = KeyboardButton("🔙 НАЗАД")
 inlineMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnbar, btnkitchen, btnbzn, btndes, btnsup, btnkids, btngril, btngor, btnnaz)
 
+"""для модераторов"""
+
+btndone = KeyboardButton("✅ Принимать брони")
+btnnot = KeyboardButton("❌ Остоновить брони")
+btnAdm = ReplyKeyboardMarkup(resize_keyboard=True).add(btnnot, btndone)
